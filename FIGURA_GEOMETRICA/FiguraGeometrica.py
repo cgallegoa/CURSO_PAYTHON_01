@@ -1,5 +1,5 @@
 
-from abc import ABD, abstractmethod
+from abc import ABC, abstractmethod
 
 class FiguraGeometrica:
     def __init__(self, ancho, alto):
