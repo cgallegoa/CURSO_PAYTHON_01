@@ -13,4 +13,4 @@ class Cuadrado(FiguraGeometrica):
         return self._alto * self._ancho
 
     def __str__(self) -> str:
-        return f"{FiguraGeometrica.__str__(self)}"
+        return f"{FiguraGeometrica.__str__(self)}" 
