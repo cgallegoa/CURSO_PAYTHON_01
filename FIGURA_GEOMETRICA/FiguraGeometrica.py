@@ -1,31 +1,32 @@
 
 from abc import ABC, abstractmethod
 
-class FiguraGeometrica:
+
+class FiguraGeometrica(ABC):
     def __init__(self, ancho, alto):
         if self._validar_valor(ancho):
           self._ancho = ancho
-        else
+        else:
           self._ancho = 0
           print('Error, el ancho de la figura no puede ser negativo')
 
         if self._validar_valor(alto):
           self._alto = alto
-        else
-          self._alto = alto
+        else:
+          self._alto = 0
           print('Error, el alto de la figura no puede ser negativo')
 
     def set_ancho(self, ancho):
         self._ancho = ancho
 
     def get_ancho(self):
-        returm self._ancho
+        return self._ancho
 
     def set_alto(self, alto):
         self._alto = alto
 
     def get_alto(self):
-        returm self._alto
+        return self._alto
 
     def _validar_valor(self, valor):
         return True if valor >= 0 else False
