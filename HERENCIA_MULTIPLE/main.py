@@ -25,7 +25,7 @@ class Alimento:
    # Fin de los Setter y Getter
 
 
-conejo = Conejo(3, 0.2, ['Hierba',"Agua","Zanahoria","Cilantro"], "Colmillo")
+conejo = Conejo(3, 0.2, ['Hierba',"Agua","Zanahoria","Cilantrillo fundillo"], "Colmillo")
 print('Conejo')
 print('------------')
 print(conejo.get_peso())
